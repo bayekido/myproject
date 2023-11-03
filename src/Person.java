@@ -43,12 +43,12 @@ public class Person {
     public boolean canUseServices() {
         return ofAge() || parentPermission;
     }
-
+//main methods on person class
     public static void main(String[] args) {
         // Creating instances of Person, Student, and Teacher classes
-        Person person = new Person(1, "John", 25, true);
-        Student student = new Student(2, "Alice", 19, true, "Class A");
-        Teacher teacher = new Teacher(3, "Mr. Smith", 35, false, "Mathematics");
+        Person person = new Person(1, "Urena", 25, true);
+        Student student = new Student(2, "Baye", 19, true, "Class A");
+        Teacher teacher = new Teacher(3, "Mr. Ermiyas", 35, false, "Mathematics");
 
         // Accessing methods and printing information
         System.out.println("Person Name: " + person.getName());
